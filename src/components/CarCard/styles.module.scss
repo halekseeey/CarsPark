@@ -1,0 +1,29 @@
+.carCard {
+  width: calc(50% - 20px);
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.carCard img {
+  width: 150px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carDetails {
+  padding: 10px;
+  flex: 1;
+}
+
+.carDetails h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.carDetails p {
+  margin: 5px 0;
+  font-size: 14px;
+}

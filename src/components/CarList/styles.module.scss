@@ -1,0 +1,13 @@
+.container {
+  width: 100%;
+
+  .carList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .activePage {
+    background-color: #b2b2d9;
+  }
+}
